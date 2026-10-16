@@ -1,0 +1,6 @@
+{
+  "name": "NexVora Regex",
+  "description": "Powerful online regular expression tester, debugger, explainer, and code generator built by Prince AR Abdur Rahman / NexVora Lab's Ofc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

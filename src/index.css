@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+    --font-sans: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #1e222b;
+    color: #d6deeb;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom scrollbars matching Regex101 dark style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181b22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e3646;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f495e;
+}
+
+/* Match highlight styles */
+.match-highlight-0 {
+  background-color: rgba(59, 130, 246, 0.35);
+  border-bottom: 2px solid #3b82f6;
+  border-radius: 2px;
+}
+
+.match-highlight-1 {
+  background-color: rgba(16, 185, 129, 0.35);
+  border-bottom: 2px solid #10b981;
+  border-radius: 2px;
+}
+
+.match-highlight-2 {
+  background-color: rgba(245, 158, 11, 0.35);
+  border-bottom: 2px solid #f59e0b;
+  border-radius: 2px;
+}
+
+.match-highlight-3 {
+  background-color: rgba(168, 85, 247, 0.35);
+  border-bottom: 2px solid #a855f7;
+  border-radius: 2px;
+}
+
+.group-highlight-0 {
+  background-color: rgba(236, 72, 153, 0.4);
+  outline: 1px dashed #ec4899;
+}
+
+.group-highlight-1 {
+  background-color: rgba(14, 165, 233, 0.4);
+  outline: 1px dashed #0ea5e9;
+}
+
+.group-highlight-2 {
+  background-color: rgba(234, 179, 8, 0.4);
+  outline: 1px dashed #eab308;
+}
